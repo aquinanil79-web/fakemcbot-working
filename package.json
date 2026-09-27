@@ -1,0 +1,21 @@
+{
+  "name": "public-minecraft-bot-service",
+  "version": "3.0.0",
+  "description": "Public multi-bot Minecraft AFK service with unique bot dashboards.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --check index.js"
+  },
+  "author": "Lamgerr",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "minecraft-data": "latest",
+    "mineflayer": "latest",
+    "mineflayer-pathfinder": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^10.8.1"
+  }
+}
